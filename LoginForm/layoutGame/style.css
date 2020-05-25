@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.top-bar__menu li a:hover {
+  color: #a5a962;
+}
+ul.top-bar__menu li a {
+  font-size: 18px;
+}
+ul.top-bar__menu li {
+  display: inline-block;
+  margin-left: 30px;
+  line-height: 100px;
+}
+
+img.logo {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav.top-bar {
+  background: #485373;
+}
+
+.Hello {
+  line-height: 100px;
+  color: #fff;
+}
+
+ul.top-bar__menu li:first-child {
+  margin-left: 0;
+}
+
+.bigBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bigBox {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.ceil {
+  border-radius: 20px;
+  border: 1px solid #ffff;
+}
+
+main {
+  margin-top: 2em;
+}
+
+.gameLayout {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.time {
+  right: 15%;
+  top: 10%;
+}
+
+.point {
+  bottom: 15%;
+  right: 20%;
+}
+
+.point.absolute p,
+.time.absolute p {
+  text-align: center;
+}
+
+.fault {
+  bottom: 15%;
+  right: 15%;
+}
+
+.gameLayout__toolsGame p {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.point p {
+  background: #2bc020;
+}
+
+.fault p {
+  background: #d92c3b;
+  border: 1px solid #d92c3b;
+}
+
+.time p {
+  font-family: "Chelsea Market", cursive;
+  width: 100px;
+  color: #242149;
+}
