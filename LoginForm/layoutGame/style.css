@@ -125,3 +125,16 @@ main {
   width: 100px;
   color: #242149;
 }
+
+.delayOpa {
+  opacity: 1 !important;
+}
+
+.button {
+  margin-top: 1em;
+  width: 100%;
+}
+.button button {
+  /* background: url("playagain.png"); */
+  padding: 1em;
+}
